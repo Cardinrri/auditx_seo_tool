@@ -1,0 +1,34 @@
+
+/* Estilos generales */
+body {
+    background-color: #121212;
+    color: white;
+}
+
+/* Título principal */
+h1 {
+    color: #1E88E5;
+    font-size: 36px;
+}
+
+/* Botón de inicio */
+.stButton>button {
+    background-color: #1E88E5;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+/* Cuadro de entrada de texto */
+input {
+    border-radius: 10px;
+    border: 1px solid #1E88E5;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Mensajes de éxito */
+.stAlert {
+    background-color: #2E7D32 !important;
+    color: white;
+}
