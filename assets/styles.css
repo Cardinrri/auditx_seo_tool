@@ -1,34 +1,38 @@
 
-/* Estilos generales */
+/* Fondo de la página */
 body {
-    background-color: #121212;
-    color: white;
+    background-color: #1E1E1E;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
 }
 
-/* Título principal */
-h1 {
-    color: #1E88E5;
-    font-size: 36px;
-}
-
-/* Botón de inicio */
+/* Personalización de botones */
 .stButton>button {
-    background-color: #1E88E5;
+    background-color: #ff4b4b;
     color: white;
-    font-size: 18px;
     border-radius: 8px;
-}
-
-/* Cuadro de entrada de texto */
-input {
-    border-radius: 10px;
-    border: 1px solid #1E88E5;
-    padding: 10px;
+    padding: 10px 20px;
     font-size: 16px;
+    border: none;
+    cursor: pointer;
 }
 
-/* Mensajes de éxito */
-.stAlert {
-    background-color: #2E7D32 !important;
-    color: white;
+/* Personalización del cuadro de búsqueda */
+.stTextInput>div>div>input {
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ff4b4b;
+}
+
+/* Títulos */
+.stMarkdown {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Contenedor de resultados */
+div[data-testid="stTable"] {
+    background-color: #292929;
+    border-radius: 10px;
 }
